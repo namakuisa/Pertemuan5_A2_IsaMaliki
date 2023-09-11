@@ -1,0 +1,10 @@
+n = int(input("Banyaknya data: "))
+print()
+data = []
+jumlah = 0
+for i in range (0,n):
+    temp = int(input("Masukkan data ke-%d: "%(i+1)))
+    data.append(temp)
+    jumlah += data[i]
+    rata_rata = jumlah/n 
+print('\nRata-rata = %0.2f'%rata_rata)
